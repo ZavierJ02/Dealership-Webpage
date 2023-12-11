@@ -1,0 +1,132 @@
+
+header h2 {
+    font-family: 'Lobster', sans-serif;
+    color: skyblue;
+    font-size: xx-large;
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(black, blue);
+    background-size: 300px 3000px;
+}
+
+
+
+.container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Mina', sans-serif;
+    display: block;
+    color: cornflowerblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+main h1 {
+    font-family: 'Mina', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+main h2 {
+    font-family: 'Mina', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#home-imgs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: center;
+}
+
+#car {
+    display: inline;
+    width:  627px;
+    height: 300px;
+    object-fit: cover;
+}
+
+main h3 {
+    font-family: 'Mina', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+#address {
+    padding-top: 200px;
+}
+
+p {
+    font-family: 'Mina', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.active, a:hover{
+    background-color: lightgrey;
+}
+
+#listing{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+#dealer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+
+figcaption{
+    font-family: 'Mina', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.email{
+    text-align: center;
+    font-family: 'Mina', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:600px){
+    #car {
+        display: flex;
+        width: 400px;
+        height: 200px;
+        padding-left: 25px;
+        object-fit: cover;
+        justify-content: center;
+    }
+}
+
+
